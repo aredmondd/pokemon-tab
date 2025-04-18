@@ -10,7 +10,7 @@ const pokemonImage = document.querySelector("#pokemon");
 pokemonImage.src = getRandomPokemon();
 
 function getRandomPokemon() {
-  const shinyChance = 1 / 100;
+  const shinyChance = 1 / 50;
   const isShiny = Math.random() < shinyChance;
 
   if (isShiny) {
