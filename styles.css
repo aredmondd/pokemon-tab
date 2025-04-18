@@ -3,7 +3,12 @@
     padding: 0;
 }
 
-html {
+@font-face {
+    font-family: Inter;
+    src: url(inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+body {
     background: #32302f;
 }
 
@@ -12,4 +17,14 @@ html {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    flex-direction: column;
+}
+
+.center>img {
+    margin-bottom: 15px;
+}
+
+p {
+    color: #a6824b;
+    font-family: Inter
 }
